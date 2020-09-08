@@ -11,9 +11,6 @@ class App extends React.Component {
             <div>
                 <NavBar />
                 <Welcome />
-                <Welcome />
-                <Welcome />
-                <Welcome />
             </div>
         )
     }
