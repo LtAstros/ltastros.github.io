@@ -1,0 +1,8 @@
+.segment.welcome {
+    min-height: 600px;
+}
+
+.welcome h1.header {
+    padding-top: 1em;
+    font-size: 8rem;
+}
