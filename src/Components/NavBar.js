@@ -1,5 +1,5 @@
 import React from 'react';
-import Link from './Link';
+import NavLink from './NavLink';
 
 class NavBar extends React.Component {
 
@@ -7,10 +7,10 @@ class NavBar extends React.Component {
         return (
                 <div className="ui large top fixed inverted menu">
                     <div className="ui container">
-                        <Link href="/" className="item">Icon</Link>
-                        <Link href="/about" className="item">About</Link>
-                        <Link href="/projects" className="item">Projects</Link>
-                        <Link href="/social" className="item">Social</Link>
+                        <NavLink href="/" className="item">Top</NavLink>
+                        <NavLink href="/about" className="item">About</NavLink>
+                        <NavLink href="/projects" className="item">Projects</NavLink>
+                        <NavLink href="/social" className="item">Contact Me</NavLink>
                     </div>
                 </div>
         )

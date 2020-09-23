@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Link = ({ href, className, children}) => {
+const NavLink = ({ href, className, children}) => {
     const onClick = (event) => {
         event.preventDefault();
     }
@@ -14,4 +14,4 @@ const Link = ({ href, className, children}) => {
     )
 }
 
-export default Link;
+export default NavLink;
