@@ -1,3 +1,14 @@
 .ui.text.container {
     max-width: none!important;
 }
+
+.ui.link.segment {
+    cursor: pointer;
+    opacity: .6;
+    -webkit-transition: opacity .1s ease;
+    transition: opacity .1s ease;
+}
+
+.ui.link.segment:hover {
+    opacity: 1;
+}
